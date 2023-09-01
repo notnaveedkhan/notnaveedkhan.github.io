@@ -1,0 +1,193 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #333;
+  background-image: url(header.jpg);
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  margin: 0 auto 15px;
+  display: block;
+}
+
+.intro h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.intro p {
+  font-size: 18px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-item {
+  margin: 10px 0;
+}
+
+.contact-item i {
+  margin-right: 10px;
+  color: #fff;
+}
+
+.contact-item a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 20px;
+}
+.skill-badge:hover {
+  background-color: #555;
+}
+
+.skill-badge {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.work-experience {
+  padding: 20px;
+  margin: 20px;
+}
+
+.personal-projects {
+  padding: 20px;
+  margin: 20px;
+}
+
+.project-dates {
+  display: flex;
+  gap: 20px;
+  font-size: xx-small;
+}
+
+.education {
+  padding: 20px;
+  margin: 20px;
+}
+
+.education p {
+  margin: 0 0 15px;
+}
+
+.download-resume {
+  text-align: center;
+  margin: 20px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.timeline {
+  position: relative;
+  padding: 20px;
+}
+
+.timeline:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0%;
+  width: 2px;
+  height: 100%;
+  background: #333;
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  padding: 20px 40px;
+  margin-bottom: 40px;
+  background: #fff;
+  color: #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -10px;
+  width: 20px;
+  height: 20px;
+  background: #333;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+.timeline-item h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+.timeline-item p {
+  font-size: 1rem;
+  color: #777;
+}
+
+.timeline-item .date {
+  font-size: 0.9rem;
+  color: #333;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.timeline-item:hover {
+  transform: scale(1.05);
+}
+
+.dark-text {
+  color: #333;
+}

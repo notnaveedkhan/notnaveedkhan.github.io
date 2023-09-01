@@ -3,12 +3,154 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Naveed Khan</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Naveed Khan's Portfolio</title>
   </head>
   <body>
-    <div id="root">
-      <h1>Naveed Khan</h1>
-      <p>This is description</p>
-    </div>
+    <header>
+      <div class="intro">
+        <img
+          src="https://avatars.githubusercontent.com/u/62374539?v=4"
+          alt="Naveed Khan"
+          class="profile-image"
+        />
+        <h1>Naveed Khan</h1>
+        <p>Software Engineer</p>
+        <p>Full Stack Web Developer</p>
+        <section class="contact">
+          <div class="contact-item">
+            <a href="https://github.com/notnaveedkhan">
+              <i class="fa-brands fa-github fa-xl"></i
+            ></a>
+          </div>
+          <div class="contact-item">
+            <a href="https://www.linkedin.com/in/your-linkedin-profile"
+              ><i class="fab fa-linkedin fa-xl"></i
+            ></a>
+          </div>
+          <div class="contact-item">
+            <a href="mailto:dev.naveedkhan@gmail.com"
+              ><i class="fa-solid fa-envelope fa-xl"></i
+            ></a>
+          </div>
+        </section>
+      </div>
+    </header>
+
+    <section class="skills">
+      <!-- Add programming languages here -->
+      <div class="skill-badge">JavaScript</div>
+      <div class="skill-badge">Java</div>
+      <div class="skill-badge">Python</div>
+      <div class="skill-badge">C#</div>
+      <div class="skill-badge">Kotlin</div>
+      <div class="skill-badge">C++</div>
+      <div class="skill-badge">Rust</div>
+
+      <div class="skill-badge">Maven</div>
+      <div class="skill-badge">Gradle</div>
+      <div class="skill-badge">NPM</div>
+      <div class="skill-badge">PIP</div>
+
+      <div class="skill-badge">Express.js</div>
+      <div class="skill-badge">Spring Boot</div>
+      <div class="skill-badge">Django</div>
+      <div class="skill-badge">React</div>
+      <div class="skill-badge">JavaFX</div>
+      <div class="skill-badge">Java Swing</div>
+      <div class="skill-badge">Hibernate</div>
+      <div class="skill-badge">Apache Kafka</div>
+      <div class="skill-badge">Swagger</div>
+      <div class="skill-badge">JUnit</div>
+      <div class="skill-badge">NumPy</div>
+      <div class="skill-badge">Axios</div>
+      <div class="skill-badge">Material-UI</div>
+      <div class="skill-badge">Context API</div>
+      <div class="skill-badge">Pandas</div>
+      <div class="skill-badge">Bootstrap</div>
+      <div class="skill-badge">React Hooks</div>
+      <div class="skill-badge">React Router</div>
+      <div class="skill-badge">Redux Toolkit</div>
+      <div class="skill-badge">Jenkins</div>
+      <div class="skill-badge">Docker</div>
+      <div class="skill-badge">Kubernetes</div>
+      <div class="skill-badge">Microservices</div>
+      <div class="skill-badge">RESTful API</div>
+      <div class="skill-badge">CI/CD</div>
+      <div class="skill-badge">Git</div>
+      <div class="skill-badge">JIRA</div>
+    </section>
+
+    <section class="work-experience">
+      <h2 class="dark-text">Work Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h2>Full Stack Developer</h2>
+          <p>Upwork</p>
+          <p>
+            As a Freelance Full Stack Developer on Upwork, I've had the
+            privilege of collaborating with multiple clients on a range of
+            exciting projects. My responsibilities have included developing and
+            maintaining robust web applications, ensuring seamless
+            functionality, and optimizing user experiences. I've successfully
+            translated client requirements into efficient code, managed
+            databases, and implemented both front-end and back-end solutions.
+            This dynamic freelance experience has allowed me to continuously
+            adapt to different project scopes and client needs, honing my skills
+            in a variety of technologies and frameworks.
+          </p>
+          <span class="date">Jun 2021 - Present</span>
+        </div>
+        <div class="timeline-item">
+          <h2>Java Developer</h2>
+          <p>ConradRP</p>
+          <p>
+            I served as a Backend Developer at ConradRP, where I significantly
+            improved the Spring Boot Microservice system's performance by
+            optimizing API response times. I also played a critical role in bug
+            fixing, ensuring system stability, and introducing new features that
+            enhanced the user experience. Additionally, I led the successful
+            migration to the latest Spring Boot version, keeping our development
+            environment up-to-date and efficient.
+          </p>
+          <span class="date">Sep 2021 - Jun 2023</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="personal-projects">
+      <h2>Personal Projects</h2>
+      <div class="timeline" id="personal-projects-timeline">
+        <!-- Personal projects will be added dynamically here -->
+      </div>
+    </section>
+
+    <section class="education">
+      <h2 class="dark-text">Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h2>Bachelor of Science in Computer Science</h2>
+          <p>Federal University of Science & Technology, Islamabad</p>
+          <p>
+            I earned my Bachelor's degree in Computer Science, achieving a
+            remarkable cumulative Grade Point Average (CGPA) of 3.65, which
+            placed me among the top students in my class.
+          </p>
+          <span class="date">Jun 2019 - Jun 2023</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="download-resume">
+      <a href="NaveedKhanResume.pdf" download>
+        <button>Download Resume</button>
+      </a>
+    </section>
+
+    <script src="script.js"></script>
   </body>
 </html>
