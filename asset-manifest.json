@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d9b5260d.css",
+    "main.js": "/static/js/main.1bf8f8b7.js",
+    "static/js/787.48a03090.chunk.js": "/static/js/787.48a03090.chunk.js",
+    "static/media/University_BG.jpg": "/static/media/University_BG.f98fbf5ec95dda7a3620.jpg",
+    "static/media/vimal-s-A4SfZV7jsJc-unsplash.jpg": "/static/media/vimal-s-A4SfZV7jsJc-unsplash.1224f655ce08993996cb.jpg",
+    "static/media/FUUAST_Logo.svg.png": "/static/media/FUUAST_Logo.svg.456fec799466a91e0b44.png",
+    "static/media/federal-urdu-university-round-logo-A5E383766F-seeklogo.com.png": "/static/media/federal-urdu-university-round-logo-A5E383766F-seeklogo.com.0047b9c03797d5255cdd.png",
+    "static/media/fuuast-logo-36D75CB714-seeklogo.com.png": "/static/media/fuuast-logo-36D75CB714-seeklogo.com.23f6a663ab9b07eb1f92.png",
+    "index.html": "/index.html",
+    "main.d9b5260d.css.map": "/static/css/main.d9b5260d.css.map",
+    "main.1bf8f8b7.js.map": "/static/js/main.1bf8f8b7.js.map",
+    "787.48a03090.chunk.js.map": "/static/js/787.48a03090.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9b5260d.css",
+    "static/js/main.1bf8f8b7.js"
+  ]
+}
